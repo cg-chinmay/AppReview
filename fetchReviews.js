@@ -1,9 +1,9 @@
 //var review_url = "https://itunes.apple.com/jp/rss/customerreviews/page=2/id=928453590/sortby=mostrecent/xml?urlDesc=/customerreviews/id=928453590/sortBy=mostRecent/xml";
-var rakumaAppUrl = "https://itunes.apple.com/jp/app/furimaapuri-rakuma-chu-pin/id928453590?l=en&mt=8"
+var defaultAppUrl = "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8&ign-mpt=uo%3D2"
 var app = "";
-var country = "jp";
+var country = "us";
 $(function() {
-   $("#appUrl").val(rakumaAppUrl);
+   $("#appUrl").val(defaultAppUrl);
   
     document.getElementById("fetchReviews").addEventListener("click",function(){
         getReviews();
