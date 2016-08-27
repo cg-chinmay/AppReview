@@ -6,4 +6,5 @@ Low rating reviews are highlighted . <br/>
 #How To View
 The sample default application used is Pokemon Go US version . <br/>
 Change the iTUnes URL and hit Get Reviews button to update .
-Try It : https://cdn.rawgit.com/cg-chinmay/AppReview/master/review.html
+Try It : https://rawgit.com/cg-chinmay/AppReview/master/review.html
+
