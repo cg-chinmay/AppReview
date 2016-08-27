@@ -1,0 +1,50 @@
+th {
+  color: rgb(255,255,255);
+  background-color: rgb(0, 0, 0);  
+}
+.selector {
+	text-decoration: none;
+    text-align: center;
+}
+.selected {
+    background-color: rgba(206,237,93,0.4);
+    text-decoration: none;
+    text-align: center;
+}
+.option {
+    text-align: center;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+#pageNav {
+    width: 330px;
+    height : 30px;
+    margin: 5px auto;
+}
+
+#pageNavBar {
+    width: 50%;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+.footer {
+    bottom: 0px;
+    width: 100%;
+    height: 35px;
+    position: fixed;
+    background-color: rgb(138, 138, 92);
+    border: 1px solid;
+}
+
+#displayContent {
+   min-height: 400px;
+   margin-bottom: 35px;
+}
+
+#appUrl {
+    line-height: 2em;
+}
+
+

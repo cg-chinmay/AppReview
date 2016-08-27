@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>App Review</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script type="text/javascript" src="spin.min.js"></script>
+<script type="text/javascript" src="pageSelector.js"></script>
+<script type="text/javascript" src="fetchReviews.js"></script>
+<link rel="stylesheet" type="text/css" href="StyleGrid.css">
+</head>
+<body id="content">
+<div align=center id="header">
+    <button type="button" id="fetchReviews">Get Reviews</button> 
+    <input type="text" id="appUrl" size="100" placeholder="iTunes URL">
+    
+<br>
+</div><br>
+<div id="displayContent">
+<h3 align="center" id="appTitle">App Reviews</h3>
+<table border="1">
+<thead>
+<tr>
+	<th>Count</th>
+	<th>Version</th>
+	<th>Date</th>
+	<th>Title</th>
+	<th>Comment</th>
+	<th>Rating</th>
+</tr>
+</thead>
+<tbody id="reviews">
+</tbody>
+</table>
+</div>
+<div class="footer">
+ <div id = "pageNav">
+     	<table id ="pageNavBar">
+            <col width = "10px"/>
+            <col width = "10px"/>
+            <col width = "10px"/>
+            <col width = "10px"/>
+            <col width = "10px"/>
+            <col width = "10px"/>
+     		<tr id="pageSelector">
+     		<td id="prev" align="center">
+              <a class="selector" href="#"><</a>
+     		</td>
+     		<td id="first" class="option selected">
+               <a class="selector" href="#">1</a>
+     		</td>
+     		<td id="second" class="option">
+     			<a class="selector" href="#">2</a>
+     		</td>
+     		<td id="third" class="option">
+     			<a class="selector" href="#">3</a>
+     		</td>
+     		<td id="fourth" class="option">
+     			<a class="selector" href="#">4</a>
+     		</td>
+     		<td id="next" align="center">
+     			<a class="selector" href="#">></a>
+     		</td>
+     		</tr>
+     	</table>
+     </div>
+ </div>
+</body>
+</html>
