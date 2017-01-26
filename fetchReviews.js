@@ -1,5 +1,5 @@
 //var review_url = "https://itunes.apple.com/jp/rss/customerreviews/page=2/id=928453590/sortby=mostrecent/xml?urlDesc=/customerreviews/id=928453590/sortBy=mostRecent/xml";
-var defaultAppUrl = "https://itunes.apple.com/jp/app/instagram/id389801252?mt=8&v0=WWW-APJP-ITSTOP100-FREEAPPS&l=ja&ign-mpt=uo%3D4"
+var defaultAppUrl = "https://itunes.apple.com/us/app/pokemon-go/id1094591345?mt=8"
 var app = "";
 var country = "jp";
 $(function() {
